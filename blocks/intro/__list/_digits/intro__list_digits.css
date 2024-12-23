@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Inter-regular";
+  src: 
+    url("../../../fonts/woff2/Inter-Regular.woff2"),
+    url("../../../fonts/ttf/Inter-Regular.ttf"),
+    url("../../../fonts/otf/Inter-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.intro__list_digits {
+  font-family: "Inter-regular";
+}

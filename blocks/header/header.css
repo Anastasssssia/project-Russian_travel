@@ -1,0 +1,18 @@
+.header {
+  height: 52px;
+  margin: 2.2% 3.75% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .header {
+    margin: 2.2% 4.7% 0;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .header {
+    margin: 2.2% 3.125% 0;
+  }
+}

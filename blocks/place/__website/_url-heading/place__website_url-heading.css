@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Inter-thin";
+  src: 
+    url("../../../../fonts/woff2/Inter-Thin.woff2"),
+    url("../../../../fonts/ttf/Inter-Thin.ttf"),
+    url("../../../../fonts/otf/Inter-Thin.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.place__website_url-heading {
+  font-family: 'Inter-thin';
+  font-size: 12px;
+  line-height: 5%;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+}

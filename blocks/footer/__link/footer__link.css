@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Inter-thin";
+  src: 
+    url("../../../fonts/woff2/Inter-Thin.woff2"),
+    url("../../../fonts/ttf/Inter-Thin.ttf"),
+    url("../../../fonts/otf/Inter-Thin.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer__link {
+  font-family: 'Inter-thin';
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}

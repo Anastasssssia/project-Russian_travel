@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Inter-bold";
+  src: 
+    url("../../../fonts/woff2/Inter-Bold.woff2"),
+    url("../../../fonts/ttf/Inter-Bold.ttf"),
+    url("../../../fonts/otf/Inter-Bold.otf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+.intro__title {
+  font-family: "Inter-bold";
+  font-size: 54px;
+  line-height: 1;
+  margin: 0;
+  color: #FFFFFF;
+}

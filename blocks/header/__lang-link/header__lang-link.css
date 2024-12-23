@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Inter";
+  src: 
+    url("../../../fonts/woff2/Inter-Thin.woff2"),
+    url("../../../fonts/ttf/Inter-Thin.ttf"),
+    url("../../../fonts/otf/Inter-Thin.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header__lang-link {
+  font-family: "Inter";
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  color: #FFFFFF;
+  grid-area: ru;
+}
+
+.header__lang-link:last-child {
+   grid-area: en;
+}

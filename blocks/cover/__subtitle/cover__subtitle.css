@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Inter-thin";
+  src: 
+    url("../../../fonts/woff2/Inter-Thin.woff2"),
+    url("../../../fonts/ttf/Inter-Thin.ttf"),
+    url("../../../fonts/otf/Inter-Thin.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cover__subtitle {
+  position: absolute;
+  left: calc((100% - 30.41%)/2);
+  top: 45%;
+  width: 30.41%;
+  margin: 100px auto;
+  font-family: 'Inter-thin';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .cover__subtitle {
+    width: 35%;
+    left: 32.5%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .cover__subtitle {
+    width: 46.88%;
+    left: calc((100% - 46.88%)/2);
+    top: 40%;
+  }
+}

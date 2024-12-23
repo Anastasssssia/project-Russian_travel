@@ -1,0 +1,19 @@
+.intro {
+  width: 54%;
+  min-height: 429px;
+  margin: 80px 11.5%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .intro {
+    width: 67.38%;
+    margin: 80px 4.7% 0;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .intro {
+    width: 93.75%;
+    margin: 80px 3.125% 0;
+  }
+}

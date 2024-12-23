@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Inter-regular";
+  src: 
+    url("../../../fonts/woff2/Inter-Regular.woff2"),
+    url("../../../fonts/ttf/Inter-Regular.ttf"),
+    url("../../../fonts/otf/Inter-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.intro__text {
+  font-family: "Inter-regular";
+  font-size: 16px;
+  line-height: 163%;
+  margin: 5% 0;
+  color: #FFFFFF;
+}

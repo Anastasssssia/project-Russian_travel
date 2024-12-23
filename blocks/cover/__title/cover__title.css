@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Inter-bold";
+  src: 
+    url("../../../fonts/woff2/Inter-Bold.woff2"),
+    url("../../../fonts/ttf/Inter-Bold.ttf"),
+    url("../../../fonts/otf/Inter-Bold.otf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+.cover__title {
+  position: absolute;
+  left: calc((100% - 47.3%)/2);
+  top: 25%;
+  width: 47.3%;
+  font-family: 'Inter-bold';
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .cover__title {
+    width: 60%;
+    left: 20%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .cover__title {
+    width: 73%;
+    left: 13.5%;
+    top: 10%;
+  }
+}
