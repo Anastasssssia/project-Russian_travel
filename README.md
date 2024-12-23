@@ -12,4 +12,4 @@
 * Файл index.css находится в папке pages в корне проекта.
 * Папка images содержит изображения.
 * Файл README.md находится в корне проекта.
-* Шрифты(Inter-Black, Inter-Bold, Inter-Regular) находятся в папке fonts, подключения @font-face описаны в fonts.css
+* Шрифты(Inter-Black, Inter-Bold, Inter-Regular) находятся в папке fonts.
